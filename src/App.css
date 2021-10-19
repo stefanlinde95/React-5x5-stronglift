@@ -1,0 +1,116 @@
+.primary-header {
+  background:#01A7C2;
+  color:#fff;
+}
+
+body {
+  background:#282C34;
+}
+
+header {
+  box-shadow: 0px 5px 100px 1px;
+}
+
+a {
+  color:#01a7c2;
+}
+.logo {
+  height: 50px;
+}
+
+.container {
+  background:#fff;
+}
+
+.primary-header .container { 
+  background:#01A7C2;
+}
+.sucess {
+  color:#01A7C2;
+  font-weight:500;
+}
+.workout {
+  background:#fff;
+  box-shadow: 15px 15px 50px 1px;
+}
+
+footer {
+  background:#fff;
+  box-shadow: 15px 15px 50px 1px;
+}
+
+.switch-btn {
+  background:#01A7C2;
+  border:solid 1px #01A7C2;
+  color:#fff;
+  transition:0.5s;
+}
+
+.save-btn {
+  background:#01A7C2;
+  border:solid 1px #01A7C2;
+  color:#fff;
+  transition:0.5s;
+}
+
+.save-btn:hover {
+  background:#fff;
+  color:#01A7C2;
+  transition:0.5s;
+  border:solid 1px #01A7C2;
+}
+.circle {
+  border:solid 2px #EAEBED;
+  color:#EAEBED;
+}
+
+.active {
+  border:solid 2px #01A7C2;
+  color:#01A7C2;
+  transition:0.5s;
+}
+.active:hover {
+  box-shadow:5px 5px 25px grey;
+  transition:0.5s;
+}
+.filled {
+  border:solid 2px #01A7C2;
+  color:#fff;
+  background:#01A7C2;
+  transition:0.5s;
+}
+h3 span {
+  color:grey;
+  font-weight:300;
+}
+.switch-btn:hover {
+  background:#fff;
+  color:#01A7C2;
+  transition:0.5s;
+  border:solid 1px #01A7C2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: #01a7c2;
+}
